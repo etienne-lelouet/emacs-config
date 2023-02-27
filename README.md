@@ -1,9 +1,6 @@
 # emacs-config
 
-## Installed debian elpa packages :
-- elpa-bind-key
-- elpa-monokai-theme
-- elpa-markdown-mode
-- elpa-markdown-toc
-- elpa-ement
-- elpa-svg-lib
+Delete the base config from `#HOME#.emacs.d`, run `systemctl --user enable emacs.service`, shortcut script to run emacs is in [etienne-lelouet/shell-conf](github.com/etienne-lelouet/shell-conf)
+
+## Additionnal nstalled debian packages :
+```elpa-bind-key elpa-monokai-theme elpa-ement elpa-svg-lib```

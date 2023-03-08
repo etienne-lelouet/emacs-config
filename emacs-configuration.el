@@ -8,6 +8,12 @@
 (bind-key "C-x <right>" 'windmove-right)
 (bind-key "C-x <down>" 'windmove-down)
 (bind-key "C-x <up>" 'windmove-up)
+
+(bind-key "C-x C-&" 'delete-other-windows)
+(bind-key "C-x C-é" 'split-window-below)
+(bind-key "C-x C-\"" 'split-window-right)
+(bind-key "C-x C-à" 'delete-window)
+
 (unbind-key "C-z")
 (unbind-key "C-x C-z")
  
